@@ -198,7 +198,7 @@ function faceDetect(imageData) {
 		color.delete();
 	}
 
-	postMessageToRedraw(img_color)
+	postMessageToRedraw(img_color);
 
 	img.delete();		
 	img_color.delete();
@@ -261,7 +261,7 @@ function eyesDetect(imageData) {
 		roi_color.delete();
 	}
 
-	postMessageToRedraw(img_color)
+	postMessageToRedraw(img_color);
 
 	img.delete();
 	img_color.delete();
